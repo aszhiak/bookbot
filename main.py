@@ -9,6 +9,7 @@ def main():
     alpha_list = remove_non_alpha(char_count)
     for a in alpha_list:        
         print(f"The {a['char']} character was found {a['num']} times")
+    print("--- End report ---")
         
     
     
